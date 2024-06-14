@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Care</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Content -->
+    <div class="container-fluid mt-4">
+
+        <div class="row">
+            <div class="col-xl-12 col-md-12 mb-4 mt-4">
+                <div class="card shadow h-100 py-2 top-bar">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+   
+                        <div class="top-logo d-none d-sm-block mx-auto"> 
+                            <img src="img/TestLogo.png" />
+                        </div>
+        
+
+                        <div class="d-none d-md-flex align-items-center menu-container">
+                            <a href="#" class="btn menu_button mr-3">
+                                <span class="icon text-white-50 mr-1">
+                                    <img src="img/home_FILL0_wght300_GRAD0_opsz24.png" />
+                                </span>
+                                <span class="text">Overview</span>
+                            </a>
+        
+                            <a href="#" class="btn btn-successx menu_button mr-3">
+                                <span class="icon text-white-50 mr-1">
+                                    <img src="img/group_FILL0_wght300_GRAD0_opsz24.png" />
+                                </span>
+                                <span class="text">Patients</span>
+                            </a>
+        
+                            <a href="#" class="btn menu_button mr-3">
+                                <span class="icon text-white-50 mr-1">
+                                    <img src="img/calendar_today_FILL0_wght300_GRAD0_opsz24.png" />
+                                </span>
+                                <span class="text">Schedule</span>
+                            </a>
+                            <a href="#" class="btn menu_button mr-3">
+                                <span class="icon text-white-50 mr-1">
+                                    <img src="img/chat_bubble_FILL0_wght300_GRAD0_opsz24.png" />
+                                </span>
+                                <span class="text">Message</span>
+                            </a>
+                            <a href="#" class="btn menu_button mr-3">
+                                <span class="icon text-white-50 mr-1">
+                                    <img src="img/credit_card_FILL0_wght300_GRAD0_opsz24.png" />
+                                </span>
+                                <span class="text">Transactions</span>
+                            </a>
+                        </div>
+        
+                        <!-- Right Column: User Info (Visible on Medium/Large screens) -->
+                        <div class="d-none d-md-flex align-items-center user-info">
+                            <div class="logged_in_user_img mr-2">
+                                <img src="img/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png" />
+                            </div>
+                            <div class="text-right flex-grow-1">
+                                <div class="text-xs mb-1 logged_in_user">Dr. Jose Simmons</div>
+                                <div class="h5 mb-0 patients_details">General Practitioner</div>
+                            </div>
+                            <div class="ml-2">
+                                <button class="btn btn-sm mr-2">
+                                    <img src="img/settings_FILL0_wght300_GRAD0_opsz24.png" class="btn-icon" />
+                                </button>
+                                <button class="btn btn-sm">
+                                    <img src="img/more_vert_FILL0_wght300_GRAD0_opsz24.png" class="btn-icon" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Patients List -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card shadow p-3 patients-container">
+                    <div class="h3 mb-0 text-gray-800 tech-headings">Patients
+                        <div class="float-right"><a href="#"><img src="img/search_FILL0_wght300_GRAD0_opsz24.png"
+                                    alt="Search"></a>
+                        </div>
+                    </div>
+
+                    <div class="patients-list mt-3">
+
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 8.png" alt="Patient Image">
+                            </div>
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user">Emily Williams</div>
+                                <div class="h5 mb-0 patients_details">Female, 18</div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 1.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Ryan Johnson</div>
+                                <div class="h5 mb-0 patients_details">Male, 45
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 3.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Brandon Mitchell</div>
+                                <div class="h5 mb-0 patients_details">Male, 36
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 2.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Jessica Taylor</div>
+                                <div class="h5 mb-0 patients_details">Female, 28
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 6.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user">Samantha Johnson</div>
+                                <div class="h5 mb-0 patients_details">Female, 56
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 12.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Ashley Martinez</div>
+                                <div class="h5 mb-0 patients_details">Female, 54
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 10.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Olivia Brown</div>
+                                <div class="h5 mb-0 patients_details">Female, 32
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 9.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Tyler Davis</div>
+                                <div class="h5 mb-0 patients_details">Male, 19
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 4.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Kevin Anderson</div>
+                                <div class="h5 mb-0 patients_details">Male, 30
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 5.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Dylan Thompson</div>
+                                <div class="h5 mb-0 patients_details">Male, 36
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/Layer 7.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Nathan Evans</div>
+                                <div class="h5 mb-0 patients_details">Male, 58
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+
+                        <div class="patient-item row no-gutters align-items-center p-3 mb-2">
+                            <div class="col-auto logged_in_user_img">
+                                <img src="img/pexels-photo-1222271.png" />
+                            </div>
+
+                            <div class="col mr-3">
+                                <div class="text-xs mb-1 logged_in_user ">Mike Nolan</div>
+                                <div class="h5 mb-0 patients_details">Male, 31
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <img src="img/more_horiz_FILL0_wght300_GRAD0_opsz24.png" alt="More" class="float-right">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Diagnosis History -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <div class="card shadow p-3 patients-container">
+                    <div class="h3 mb-0 text-gray-800 tech-headings">Diagnosis History</div>
+                    <div class="card-body">
+                        <div class="chart-area">
+                            <canvas id="myAreaChart"></canvas>
+                        </div>
+            
+                        <div class="row mt-4">
+                            <div class="col-md-4 col-sm-4 mb-4">
+                                <div class="card respiratory-rate">
+                                    <img src="img/respiratory rate.svg" class="card-img-top mt-4 ml-3" alt="Respiratory Rate">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Respiratory Rate</h5>
+                                        <p class="card-text">20bpm</p>
+                                        <span>Normal</span>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 col-sm-4 mb-4">
+                                <div class="card temperature">
+                                    <img src="img/temperature.svg" class="card-img-top mt-4 ml-3" alt="Temperature">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Temperature</h5>
+                                        <p class="card-text">98.6&deg;F</p>
+                                        <span>Normal</span>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 col-sm-4 mb-4">
+                                <div class="card heart-rate">
+                                    <img src="img/HeartBPM.svg" class="card-img-top mt-4 ml-3" alt="Heart Rate">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Heart Rate</h5>
+                                        <p class="card-text">78 bpm</p>
+                                        <span>Lower than Average</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            
+                <!-- Diagnostic List -->
+                <div class="card shadow p-3 patients-container mt-4">
+                    <div class="h3 mb-0 text-gray-800 tech-headings">Diagnostic List</div>
+                    <div class="table-responsive">
+                        <table class="table borderless mt-4 rounded-circle table-rounded">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Problem/Diagnosis</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Hypertension</td>
+                                    <td>Chronic high blood pressure</td>
+                                    <td>Under Observation</td>
+                                </tr>
+                                <tr>
+                                    <td>Type 2 Diabetes</td>
+                                    <td>Insulin resistance and elevated blood sugar</td>
+                                    <td>Cured</td>
+                                </tr>
+                                <tr>
+                                    <td>Asthma</td>
+                                    <td>Recurrent episodes of bronchial constriction</td>
+                                    <td>Inactive</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Single Patient Details -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card shadow mb-4 single-patient-container">
+
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 100%; max-width: 250px"
+                                src="img/Layer 2@2x.png" alt="Patient Image">
+                        </div>
+                        <div class="h3 mb-0 text-gray-800 tech-headings text-center">Jessica Taylor</div>
+
+                        <div class="patient-info row no-gutters align-items-center p-1">
+                            <div class="col-auto logged_in_user_img mr-2 ml-2">
+                                <img src="img/BirthIcon.svg" alt="Birth Icon" style="width: 42px; height: 42px;"
+                                    class="ml-2 mt-2">
+                            </div>
+                            <div class="col">
+                                <div class="text-xs mb-1 single-patient-title-head mt-3">Date of Birth</div>
+                                <div class="h5 mb-0 single-patient-title-data">August 23, 1996</div>
+                            </div>
+                        </div>
+
+                        <div class="patient-info row no-gutters align-items-center p-1">
+                            <div class="col-auto logged_in_user_img mr-2 ml-2">
+                                <img src="img/FemaleIcon.svg" alt="Birth Icon" style="width: 42px; height: 42px;"
+                                    class="ml-2 mt-2">
+                            </div>
+                            <div class="col">
+                                <div class="text-xs mb-1 single-patient-title-head mt-3">Gender</div>
+                                <div class="h5 mb-0 single-patient-title-data">Female</div>
+                            </div>
+                        </div>
+
+                        <div class="patient-info row no-gutters align-items-center p-1">
+                            <div class="col-auto logged_in_user_img mr-2 ml-2">
+                                <img src="img/PhoneIcon.svg" alt="Birth Icon" style="width: 42px; height: 42px;"
+                                    class="ml-2 mt-2">
+                            </div>
+                            <div class="col">
+                                <div class="text-xs mb-1 single-patient-title-head mt-3">Contact Info.</div>
+                                <div class="h5 mb-0 single-patient-title-data">(415) 555-1234</div>
+                            </div>
+                        </div>
+
+                        <div class="patient-info row no-gutters align-items-center p-1">
+                            <div class="col-auto logged_in_user_img mr-2 ml-2">
+                                <img src="img/PhoneIcon.svg" alt="Birth Icon" style="width: 42px; height: 42px;"
+                                    class="ml-2 mt-2">
+                            </div>
+                            <div class="col">
+                                <div class="text-xs mb-1 single-patient-title-head mt-3">Emergency Contacts.</div>
+                                <div class="h5 mb-0 single-patient-title-data">(415) 555-1234</div>
+                            </div>
+                        </div>
+
+                        <div class="patient-info row no-gutters align-items-center p-1">
+                            <div class="col-auto logged_in_user_img mr-2 ml-2">
+                                <img src="img/InsuranceIcon.svg" alt="Birth Icon" style="width: 42px; height: 42px;"
+                                    class="ml-2 mt-2">
+                            </div>
+                            <div class="col">
+                                <div class="text-xs mb-1 single-patient-title-head mt-3">Insurance Provider</div>
+                                <div class="h5 mb-0 single-patient-title-data">Sunrise Health Assurance</div>
+                            </div>
+                        </div>
+
+                        <div class="card-body text-center">
+                            <a href="#" class="btn btn-successx">
+                                <span class="text" style="padding-top: 2px;">Show All Information</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow p-3 single-patient-container">
+                    <div class="h3 mb-0 text-gray-800 tech-headings">Lab Results</div>
+
+                    <table class="table borderless mt-4 rounded-circle table-rounded">
+                        <tbody>
+                            <tr>
+                                <td>Blood Tests</td>
+                                <td><img src="img/download_FILL0_wght300_GRAD0_opsz24.svg"></td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <td>CT Scans</td>
+                                <td><img src="img/download_FILL0_wght300_GRAD0_opsz24.svg"></td>
+                            </tr>
+                            <tr>
+                                <td>Radiology Reports</td>
+                                <td><img src="img/download_FILL0_wght300_GRAD0_opsz24.svg"></td>
+                            </tr>
+                            <tr>
+                                <td>X-Rays</td>
+                                <td><img src="img/download_FILL0_wght300_GRAD0_opsz24.svg"></td>
+                            </tr>
+                            <tr>
+                                <td>Urine Test</td>
+                                <td><img src="img/download_FILL0_wght300_GRAD0_opsz24.svg"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('myAreaChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Oct 2023', 'Nov 2023', 'Dec 2023', 'Jan 2024', 'Feb 2024', 'Mar 2024'],
+                datasets: [{
+                    label: 'Systolic',
+                    data: [120, 125, 130, 122, 128, 132],
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'Diastolic',
+                    data: [70, 72, 68, 75, 70, 73], 
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Blood Pressure',
+                        font: {
+                            size: 18,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        position: 'right',
+                        align: 'middle', 
+                        labels: {
+                            font: {
+                                size: 16
+                            }
+                        }
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                },
+                elements: {
+                    line: {
+                        fill: false 
+                    }
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Time'
+                        },
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 0,
+                            callback: function (value, index, values) {
+                               
+                                return index % 2 === 0 ? value : '';
+                            }
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'mmHg'
+                        },
+                        suggestedMin: 60,
+                        suggestedMax: 180
+                    }
+                }
+            },
+            plugins: [{
+                beforeDraw: function (chart, args, options) {
+                    var ctx = chart.ctx;
+                    ctx.save();
+                    ctx.fillStyle = '#F4F0FE'; 
+                    var cornerRadius = 24;
+                    ctx.beginPath();
+                    ctx.moveTo(cornerRadius, 0);
+                    ctx.lineTo(chart.width - cornerRadius, 0);
+                    ctx.quadraticCurveTo(chart.width, 0, chart.width, cornerRadius);
+                    ctx.lineTo(chart.width, chart.height - cornerRadius);
+                    ctx.quadraticCurveTo(chart.width, chart.height, chart.width - cornerRadius, chart.height);
+                    ctx.lineTo(cornerRadius, chart.height);
+                    ctx.quadraticCurveTo(0, chart.height, 0, chart.height - cornerRadius);
+                    ctx.lineTo(0, cornerRadius);
+                    ctx.quadraticCurveTo(0, 0, cornerRadius, 0);
+                    ctx.closePath();
+                    ctx.fill();
+                    ctx.restore();
+                }
+            }]
+        });
+
+
+    </script>
+</body>
+
+</html>
