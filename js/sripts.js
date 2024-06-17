@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
   
     document.getElementById("patients-container").style.maxHeight = document.getElementById('diagnosis').offsetHeight+"px";
@@ -10,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    loadData(8);
+    //load Jessica Taylor's data by default
+    loadData(3);
 
     function loadData(employee_key) {
 
@@ -31,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }).then(function (data) {
             console.log(data);
 
-            // Jessica Taylor's
+            
             let patient = data[employee_key];
 
             //patient data
