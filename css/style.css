@@ -74,6 +74,12 @@ body {
     opacity: 1;
 }
 
+.logged_in_user a{
+    font: normal normal bold 14px/19px Manrope;
+    color: #072635;
+    opacity: 1;
+}
+
 .patients_details {
     font: normal normal normal 14px/19px Manrope;
     color: #707070;
